@@ -126,3 +126,5 @@ Para mais detalhes e configurações avançadas, consulte a documentação de n�
 ```
 
 Este markdown fornece uma visão detalhada e estruturada do projeto "MySQLOps", abordando todos os aspectos desde a configuração inicial do MySQL até a implantação em um ambiente Kubernetes, com instruções claras e exemplos de código para cada etapa do processo.
+
+Fique a voltade pars baixa-lo e desenvolver suas habilidades.
