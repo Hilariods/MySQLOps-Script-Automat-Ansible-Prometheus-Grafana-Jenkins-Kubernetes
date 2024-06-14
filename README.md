@@ -1,7 +1,7 @@
-```markdown
-# Documentação de Nível DBA Sênior
 
-## Visão Geral do Projeto
+## Documentação de Nível DBA Sênior
+
+### Visão Geral do Projeto
 
 O objetivo deste projeto é configurar e operar uma aplicação utilizando MySQL, integrando tecnologias como Ansible para automação de backup/recuperação, Prometheus e Grafana para monitoramento, Jenkins para automação de deploy, e Kubernetes para garantir alta disponibilidade e escalabilidade.
 
@@ -69,5 +69,3 @@ Utilizamos o comando `kubectl apply` para aplicar o manifesto `deployment.yaml` 
 
 Este projeto abrange desde a configuração inicial do banco de dados MySQL até a implantação da aplicação em um ambiente Kubernetes, passando por automação de backup/recuperação com Ansible, monitoramento com Prometheus/Grafana e automação de deploy com Jenkins. Cada passo foi desenhado para garantir a operação eficiente, segura e escalável da aplicação utilizando tecnologias modernas.
 ```
-
-Este markdown organiza a documentação de forma clara e estruturada, abordando cada componente do projeto "MySQLOps" conforme solicitado, facilitando a compreensão e referência para cada etapa do processo.
