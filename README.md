@@ -1,11 +1,10 @@
-
-## Documentação de Nível DBA Sênior
+## MYSQLOps-Script-Automat-Ansible-Prometheus-Grafana-Jenkins-Kubernetes
 
 ### Visão Geral do Projeto
 
 O objetivo deste projeto é configurar e operar uma aplicação utilizando MySQL, integrando tecnologias como Ansible para automação de backup/recuperação, Prometheus e Grafana para monitoramento, Jenkins para automação de deploy, e Kubernetes para garantir alta disponibilidade e escalabilidade.
 
-## Configuração de MySQL em Docker
+### Configuração de MySQL em Docker
 
 ### Passos:
 
@@ -17,7 +16,7 @@ Utilizamos o Docker Compose para definir e configurar o ambiente do MySQL. O arq
 
 Criamos um script SQL (`init.sql`) para inicializar o esquema do banco de dados e popular com dados iniciais. Utilizamos o comando `docker exec` para executar o script SQL dentro do contêiner MySQL e popular o banco de dados com dados de exemplo.
 
-## Backup e Recuperação com Ansible
+## Backup e Recuperação com Ansible##
 
 ### Passos:
 
@@ -65,7 +64,7 @@ Criamos um manifesto Kubernetes (`deployment.yaml`) para definir a configuraçã
 
 Utilizamos o comando `kubectl apply` para aplicar o manifesto `deployment.yaml` e implantar a aplicação no cluster Kubernetes. Configuramos estratégias de replicação e balanceamento de carga para distribuir o tráfego entre as réplicas da aplicação e garantir a escalabilidade horizontal.
 
-## Conclusão
+## Concluindo
 
 Este projeto abrange desde a configuração inicial do banco de dados MySQL até a implantação da aplicação em um ambiente Kubernetes, passando por automação de backup/recuperação com Ansible, monitoramento com Prometheus/Grafana e automação de deploy com Jenkins. Cada passo foi desenhado para garantir a operação eficiente, segura e escalável da aplicação utilizando tecnologias modernas.
 ```
